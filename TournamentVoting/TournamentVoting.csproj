@@ -88,11 +88,13 @@
     <Content Include="Images\image2.jpg" />
     <Content Include="Images\image3.jpg" />
     <Content Include="Images\image4.jpg" />
-    <Content Include="Scripts\ExperimenterTest.js" />
+    <Content Include="Scripts\PreTesting\ExperimenterTest.js" />
     <Content Include="Scripts\jquery-3.2.1.js" />
     <Content Include="Scripts\jquery-3.2.1.min.js" />
     <Content Include="Scripts\jquery-3.2.1.slim.js" />
     <Content Include="Scripts\jquery-3.2.1.slim.min.js" />
+    <Content Include="Scripts\PreTesting\ExperimenterProfile.js" />
+    <Content Include="Views\PreTesting\ExperimenterProfile.html" />
     <Content Include="Views\PreTesting\ExperimenterTest.html" />
     <Content Include="Views\PreTesting\PreTestingRanking.html" />
     <Content Include="Views\PreTesting\PreTestingIntroduction.html" />
