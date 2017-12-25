@@ -3,21 +3,21 @@
         $("#nextStageBtn").click(function () {
             var numOfPictures = $("#picNum").val();
             var picTheme = $("#picTheme").val();
-            var winnerPic = $("#winnerPic").val();
+            var winnerPic = $("#winnerMethod").val();
             var correctAnswers = 0;
-            if (numOfPictures == $("#picNum").option[2].text) {
+            if (numOfPictures == document.getElementById('picNum').options[2].text) {
                 correctAnswers++;
             }
-            if (picTheme == $("#picTheme").option[1].text) {
+            if (picTheme == document.getElementById('picTheme').options[1].text) {
                 correctAnswers++;
             }
-            if (winnerPic == $("#winnerMethod").option[2].text) {
+            if (winnerPic == document.getElementById('winnerMethod').options[2].text) {
                 correctAnswers++;
             }
             if (correctAnswers < 3) {
-                alert("You have answered correctly ${correctAnswers} out of 3 questions" + 
-                    "Please Try again." +
-                    "You can always go back to the previous page by clicking the 'Back' button");
+                alert("You have answered correctly " + correctAnswers + " out of 3 questions.\nPlease Try again.\n"
+                   + "You can always go back to the previous page by clicking the 'Back' button\n")
+                    
             }
 
         });
