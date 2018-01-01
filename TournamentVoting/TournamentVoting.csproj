@@ -111,6 +111,7 @@
     <Content Include="Views\PreTesting\ExperimenterTest.html" />
     <Content Include="Views\PreTesting\PreTestingRanking.html" />
     <Content Include="Views\PreTesting\PreTestingIntroduction.html" />
+    <Content Include="Views\RandomPairingTest\RandomPairingImages.html" />
     <Content Include="Views\RandomPairingTest\RandomPairingIntroduction.html" />
     <Content Include="Views\RandomPairingTest\ShowRandomPairing.html" />
     <Content Include="Web.config" />
