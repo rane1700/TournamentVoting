@@ -17,7 +17,7 @@
         <h3>Information About You</h3>
         <br />
         <br />
-        <form id="profileForm" onsubmit="myFunction()">
+        <form id="profileForm" onsubmit="myFunction(event)">
             <div class="form-group row" data-toggle="validator">
                 <div class="col-xs-3">
                     <label for="ex1">What is your age ?</label>
@@ -37,8 +37,9 @@
                         <option>Undergraduate</option>
                         <option>B.sc./B.A or Higher</option>
                     </select>
-                    <br /><br />
-                            <button id="nextStageBtn" type="submit" class="btn btn-primary btn-lg">Next Stage</button>
+                    <br />
+                    <br />
+                           <button id="nextStageBtn" type="submit" class="btn btn-primary btn-lg">Next Stage</button>
                 </div>
 
             </div>
