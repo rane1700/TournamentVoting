@@ -1,0 +1,16 @@
+﻿divImg {
+    display:flex;
+}
+divImg * {
+    margin-top:auto;
+    margin-bottom:auto;
+}
+#gameplay-baseball-field {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+#textxPadding {
+  padding-right: 5px;
+  padding-left: 5px;
+}
