@@ -1,6 +1,5 @@
 ﻿
 function myFunction(event) {
-    event.preventDefault();
     var age = $("#age").val()
     var gender = $("#gender").val()
     var education = $("#educationLevel").val()
